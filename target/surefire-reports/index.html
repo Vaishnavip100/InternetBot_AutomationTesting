@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-InternetBot_Suite" class="navigator-link">
+              <span class="suite-name border-passed">InternetBot Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-InternetBot_Suite" class="navigator-link ">
+                    <span>C:\Users\91996\OneDrive\Desktop\AT\InternetBot\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-InternetBot_Suite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-InternetBot_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-InternetBot_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-InternetBot_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-InternetBot_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-InternetBot_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-InternetBot_Suite" class="hide-methods passed suite-InternetBot_Suite"> (hide)</a> <!-- hide-methods passed suite-InternetBot_Suite -->
+                      <a href="#" panel-name="suite-InternetBot_Suite" class="show-methods passed suite-InternetBot_Suite"> (show)</a> <!-- show-methods passed suite-InternetBot_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-InternetBot_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InternetBot_Suite" title="tests.CheckboxesAndDropdownsTest" class="method navigator-link" hash-for-method="verifyCheckbox1Toggle">verifyCheckbox1Toggle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InternetBot_Suite" title="tests.CheckboxesAndDropdownsTest" class="method navigator-link" hash-for-method="verifyCheckbox2Toggle">verifyCheckbox2Toggle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InternetBot_Suite" title="tests.CheckboxesAndDropdownsTest" class="method navigator-link" hash-for-method="verifyDropdownOptionsCount">verifyDropdownOptionsCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InternetBot_Suite" title="tests.CheckboxesAndDropdownsTest" class="method navigator-link" hash-for-method="verifyDropdownSelection">verifyDropdownSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InternetBot_Suite" title="tests.DynamicLoadingTest" class="method navigator-link" hash-for-method="verifyDynamicLoadingText">verifyDynamicLoadingText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InternetBot_Suite" title="tests.DynamicLoadingTest" class="method navigator-link" hash-for-method="verifyElementReappearsOnRefresh">verifyElementReappearsOnRefresh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InternetBot_Suite" title="tests.FileUploadTest" class="method navigator-link" hash-for-method="verifyFileUpload">verifyFileUpload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InternetBot_Suite" title="tests.AlertsTest" class="method navigator-link" hash-for-method="verifyJsAlertAccept">verifyJsAlertAccept</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InternetBot_Suite" title="tests.AlertsTest" class="method navigator-link" hash-for-method="verifyJsConfirmDismiss">verifyJsConfirmDismiss</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InternetBot_Suite" title="tests.AlertsTest" class="method navigator-link" hash-for-method="verifyJsPromptInput">verifyJsPromptInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InternetBot_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="verifyLogin(tomsmith, SuperSecretPassword!, TRUE)">verifyLogin(tomsmith, SuperSecretPassword!, TRUE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InternetBot_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="verifyLogin(Vaishnavi, Password123, FALSE)">verifyLogin(Vaishnavi, Password123, FALSE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InternetBot_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="verifyLogin(tomsmith, wrong123, FALSE)">verifyLogin(tomsmith, wrong123, FALSE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InternetBot_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="verifyLogout">verifyLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InternetBot_Suite" title="tests.AlertsTest" class="method navigator-link" hash-for-method="verifyResultTextUpdates">verifyResultTextUpdates</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InternetBot_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="verifySuccessMessage">verifySuccessMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InternetBot_Suite" title="tests.FileUploadTest" class="method navigator-link" hash-for-method="verifyUnsupportedFileUpload">verifyUnsupportedFileUpload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InternetBot_Suite" title="tests.FileUploadTest" class="method navigator-link" hash-for-method="verifyUploadPageUI">verifyUploadPageUI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-InternetBot_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-InternetBot_Suite" class="panel InternetBot_Suite">
+          <div class="suite-InternetBot_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin(tomsmith, SuperSecretPassword!, TRUE)">
+                  </a> <!-- verifyLogin(tomsmith, SuperSecretPassword!, TRUE) -->
+                  <span class="method-name">verifyLogin</span>
+                  <span class="parameters">(tomsmith,SuperSecretPassword!,TRUE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin(Vaishnavi, Password123, FALSE)">
+                  </a> <!-- verifyLogin(Vaishnavi, Password123, FALSE) -->
+                  <span class="method-name">verifyLogin</span>
+                  <span class="parameters">(Vaishnavi,Password123,FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin(tomsmith, wrong123, FALSE)">
+                  </a> <!-- verifyLogin(tomsmith, wrong123, FALSE) -->
+                  <span class="method-name">verifyLogin</span>
+                  <span class="parameters">(tomsmith,wrong123,FALSE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogout">
+                  </a> <!-- verifyLogout -->
+                  <span class="method-name">verifyLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySuccessMessage">
+                  </a> <!-- verifySuccessMessage -->
+                  <span class="method-name">verifySuccessMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-InternetBot_Suite-class-passed -->
+          <div class="suite-InternetBot_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DynamicLoadingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDynamicLoadingText">
+                  </a> <!-- verifyDynamicLoadingText -->
+                  <span class="method-name">verifyDynamicLoadingText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyElementReappearsOnRefresh">
+                  </a> <!-- verifyElementReappearsOnRefresh -->
+                  <span class="method-name">verifyElementReappearsOnRefresh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-InternetBot_Suite-class-passed -->
+          <div class="suite-InternetBot_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CheckboxesAndDropdownsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckbox1Toggle">
+                  </a> <!-- verifyCheckbox1Toggle -->
+                  <span class="method-name">verifyCheckbox1Toggle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckbox2Toggle">
+                  </a> <!-- verifyCheckbox2Toggle -->
+                  <span class="method-name">verifyCheckbox2Toggle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDropdownOptionsCount">
+                  </a> <!-- verifyDropdownOptionsCount -->
+                  <span class="method-name">verifyDropdownOptionsCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDropdownSelection">
+                  </a> <!-- verifyDropdownSelection -->
+                  <span class="method-name">verifyDropdownSelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-InternetBot_Suite-class-passed -->
+          <div class="suite-InternetBot_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AlertsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJsAlertAccept">
+                  </a> <!-- verifyJsAlertAccept -->
+                  <span class="method-name">verifyJsAlertAccept</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJsConfirmDismiss">
+                  </a> <!-- verifyJsConfirmDismiss -->
+                  <span class="method-name">verifyJsConfirmDismiss</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyJsPromptInput">
+                  </a> <!-- verifyJsPromptInput -->
+                  <span class="method-name">verifyJsPromptInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyResultTextUpdates">
+                  </a> <!-- verifyResultTextUpdates -->
+                  <span class="method-name">verifyResultTextUpdates</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-InternetBot_Suite-class-passed -->
+          <div class="suite-InternetBot_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.FileUploadTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFileUpload">
+                  </a> <!-- verifyFileUpload -->
+                  <span class="method-name">verifyFileUpload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUnsupportedFileUpload">
+                  </a> <!-- verifyUnsupportedFileUpload -->
+                  <span class="method-name">verifyUnsupportedFileUpload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUploadPageUI">
+                  </a> <!-- verifyUploadPageUI -->
+                  <span class="method-name">verifyUploadPageUI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-InternetBot_Suite-class-passed -->
+        </div> <!-- panel InternetBot_Suite -->
+        <div panel-name="test-xml-InternetBot_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\91996\OneDrive\Desktop\AT\InternetBot\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;InternetBot Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestListener&quot;/&gt;
+    &lt;listener class-name=&quot;listeners.RetryListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Authentication Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Authentication Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Alerts Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.AlertsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Alerts Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Checkbox Dropdown Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CheckboxesAndDropdownsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Checkbox Dropdown Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;File Upload Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.FileUploadTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- File Upload Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Dynamic Loading Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.DynamicLoadingTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Dynamic Loading Tests --&gt;
+&lt;/suite&gt; &lt;!-- InternetBot Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-InternetBot_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for InternetBot Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Authentication Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Alerts Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Checkbox Dropdown Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">File Upload Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Dynamic Loading Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-InternetBot_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for InternetBot Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-InternetBot_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for InternetBot Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_InternetBot_Suite');
+function tableData_InternetBot_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyElementReappearsOnRefresh')
+data.setCell(0, 2, 'tests.DynamicLoadingTest')
+data.setCell(0, 3, 12426);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyDynamicLoadingText')
+data.setCell(1, 2, 'tests.DynamicLoadingTest')
+data.setCell(1, 3, 6725);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyCheckbox1Toggle')
+data.setCell(2, 2, 'tests.CheckboxesAndDropdownsTest')
+data.setCell(2, 3, 3833);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyLogout')
+data.setCell(3, 2, 'tests.LoginTest')
+data.setCell(3, 3, 3229);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyLogin')
+data.setCell(4, 2, 'tests.LoginTest')
+data.setCell(4, 3, 2484);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifySuccessMessage')
+data.setCell(5, 2, 'tests.LoginTest')
+data.setCell(5, 3, 2183);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLogin')
+data.setCell(6, 2, 'tests.LoginTest')
+data.setCell(6, 3, 2153);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyLogin')
+data.setCell(7, 2, 'tests.LoginTest')
+data.setCell(7, 3, 2075);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyUnsupportedFileUpload')
+data.setCell(8, 2, 'tests.FileUploadTest')
+data.setCell(8, 3, 1867);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyFileUpload')
+data.setCell(9, 2, 'tests.FileUploadTest')
+data.setCell(9, 3, 1683);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyDropdownSelection')
+data.setCell(10, 2, 'tests.CheckboxesAndDropdownsTest')
+data.setCell(10, 3, 1328);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyResultTextUpdates')
+data.setCell(11, 2, 'tests.AlertsTest')
+data.setCell(11, 3, 1193);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyUploadPageUI')
+data.setCell(12, 2, 'tests.FileUploadTest')
+data.setCell(12, 3, 1113);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyCheckbox2Toggle')
+data.setCell(13, 2, 'tests.CheckboxesAndDropdownsTest')
+data.setCell(13, 3, 1083);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyJsAlertAccept')
+data.setCell(14, 2, 'tests.AlertsTest')
+data.setCell(14, 3, 995);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyJsConfirmDismiss')
+data.setCell(15, 2, 'tests.AlertsTest')
+data.setCell(15, 3, 942);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyJsPromptInput')
+data.setCell(16, 2, 'tests.AlertsTest')
+data.setCell(16, 3, 867);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyDropdownOptionsCount')
+data.setCell(17, 2, 'tests.CheckboxesAndDropdownsTest')
+data.setCell(17, 3, 855);
+window.suiteTableData['InternetBot_Suite']= { tableData: data, tableDiv: 'times-div-InternetBot_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
+              <div id="times-div-InternetBot_Suite">
+              </div> <!-- times-div-InternetBot_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-InternetBot_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for InternetBot Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-InternetBot_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-InternetBot_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin(tomsmith, SuperSecretPassword!, TRUE)</span>
+                <span class="method-start">7970 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10462 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">10734 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin(tomsmith, wrong123, FALSE)</span>
+                <span class="method-start">15341 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17417 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">17590 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin(Vaishnavi, Password123, FALSE)</span>
+                <span class="method-start">21434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23588 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">23763 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogout</span>
+                <span class="method-start">28131 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31362 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">31749 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySuccessMessage</span>
+                <span class="method-start">36479 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38662 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AlertsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">39341 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJsAlertAccept</span>
+                <span class="method-start">44338 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45334 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">45553 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJsConfirmDismiss</span>
+                <span class="method-start">49815 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">50758 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">50969 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyJsPromptInput</span>
+                <span class="method-start">55085 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">55952 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">56147 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyResultTextUpdates</span>
+                <span class="method-start">60573 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61769 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckboxesAndDropdownsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">62020 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckbox1Toggle</span>
+                <span class="method-start">64578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68412 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">68722 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckbox2Toggle</span>
+                <span class="method-start">73405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">74489 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">74849 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDropdownOptionsCount</span>
+                <span class="method-start">79650 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">80506 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">80731 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDropdownSelection</span>
+                <span class="method-start">85126 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">86455 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.FileUploadTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">86730 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFileUpload</span>
+                <span class="method-start">90671 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">92355 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">92722 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUnsupportedFileUpload</span>
+                <span class="method-start">97588 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">99455 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">99696 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUploadPageUI</span>
+                <span class="method-start">104030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">105144 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DynamicLoadingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">105374 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDynamicLoadingText</span>
+                <span class="method-start">109924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">116653 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">116938 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyElementReappearsOnRefresh</span>
+                <span class="method-start">121014 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">133442 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

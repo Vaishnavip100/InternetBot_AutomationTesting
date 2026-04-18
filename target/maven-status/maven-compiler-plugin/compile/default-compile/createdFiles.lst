@@ -1,0 +1,12 @@
+base\BasePage.class
+pages\DropdownPage.class
+pages\CheckboxPage.class
+pages\DynamicLoadingPage.class
+pages\LoginPage.class
+pages\FileUploadPage.class
+pages\HomePage.class
+utils\ConfigReader.class
+utils\ExcelUtil.class
+utils\ScreenshotUtil.class
+pages\AlertsPage.class
+utils\ExtentManager.class
