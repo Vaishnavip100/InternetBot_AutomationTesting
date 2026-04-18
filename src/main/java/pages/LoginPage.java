@@ -5,12 +5,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class LoginPage extends BasePage {
-    // Locators
-    private By username = By.id("username");
-    private By password = By.id("password");
-    private By loginBtn = By.cssSelector("button[type='submit']");
-    private By message = By.id("flash");
-    private By logoutBtn = By.cssSelector(".icon-2x.icon-signout");
+    private By username=By.id("username");
+    private By password=By.id("password");
+    private By loginBtn=By.cssSelector("button[type='submit']");
+    private By message=By.id("flash");
+    private By logoutBtn=By.cssSelector(".icon-2x.icon-signout");
     
     public LoginPage(WebDriver driver) {
         super(driver);
